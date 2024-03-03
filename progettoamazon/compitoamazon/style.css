@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(218, 218, 218);
+  text-align: center;
+}
+header {
+  margin: auto;
+  text-align: left;
+  background-color: #222f3f;
+}
+.opzioni {
+  background-color: #364759;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+}
+.opzioni a {
+  color: white;
+  text-decoration: none;
+  margin: 0.4cm;
+}
+header img {
+  width: 8%;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+}
+
+main {
+  margin: 25px;
+  font-size: large;
+}
+.intestazione {
+  background-color: rgb(255, 102, 0);
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+main a {
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: smaller;
+}
+.regali {
+  background-image: url(./assets/bg-image.png);
+  color: white;
+  font-size: 2rem;
+  font-weight: bolder;
+  padding-top: 70px;
+  padding-bottom: 45px;
+}
+.regali p {
+  font-size: large;
+}
+
+.row p{
+  text-align: left !important;
+}
+
+.row {
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  height: 100%;
+
+}
+  .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column img {
+  width: 80%;
+  height: 290.633px;
+  border-radius: 20px;
+  max-height: 291.4px;
+  display: block;
+}
+.giochi-musica {
+  text-align: center;
+}
+.giochi-musica img {
+  width: 100%;
+}
+
+footer {
+  background-color: #222f3f;
+}
+.link {
+  background-color: #364759;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.link a {
+  font-weight: bolder;
+  color: white;
+}
+footer img {
+  width: 10%;
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
